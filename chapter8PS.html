@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 8 practice set</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background: black;
+            height: 15vh;
+            
+        }
+        main{
+            background: blue;
+            height: 80vh;
+        }
+        .progress{
+            background: rgb(136, 46, 46);
+            height: 3px;
+            width: 100vw;
+            animation: sujal 5s ease-out 0.1s infinite alternate-reverse;
+        }
+        @keyframes sujal {
+            0%{
+                width:0
+            }
+            60%{
+                width:50vw
+            }
+            100%{
+                width:100vw
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <main></main>
+</body>
+</html>
